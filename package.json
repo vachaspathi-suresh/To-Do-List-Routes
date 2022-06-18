@@ -1,0 +1,27 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "A To-Do List web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juggernaut",
+  "license": "ISC",
+  "engines": {
+    "node": "16.15.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.3.8",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^7.1.2",
+    "uuid": "^8.3.2"
+  }
+}
