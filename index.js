@@ -62,6 +62,10 @@ passport.use(User.createStrategy());
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
+app.get("/", function (req, res) {
+  res.redirect("/list");
+});
+
 app.get("/auth", function (req, res) {
   res.render("signin");
 });
